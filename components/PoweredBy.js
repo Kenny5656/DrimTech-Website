@@ -5,5 +5,10 @@ import { siteConfig } from '@/lib/config'
  * @returns
  */
 export default function PoweredBy(props) {
-  return ()
+  return (
+    <div
+      className={`gap-x-1 flex flex-wrap text-sm font-serif ${props.className}`}>
+      <span></span>
+    </div>
+  )
 }
